@@ -41,4 +41,4 @@ Más detalles en [docs/PLAN.md](docs/PLAN.md).
 
 ## Licencia
 
-El código es MIT (ver `LICENSE`). El SDK de Qualcomm QAIRT/QNN **no se incluye**; se usa con tu propia licencia. Los pesos de HunyuanVideo tienen la licencia de Tencent.
+El código es MIT (ver `LICENSE` y `NOTICE`). El SDK de Qualcomm QAIRT/QNN **no se incluye**; se usa con tu propia licencia. Los pesos de HunyuanVideo tienen la licencia de Tencent.

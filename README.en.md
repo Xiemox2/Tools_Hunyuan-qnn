@@ -41,4 +41,4 @@ Details in [docs/PLAN.md](docs/PLAN.md).
 
 ## License
 
-Code is MIT (see `LICENSE`). The Qualcomm QAIRT/QNN SDK is **not included**; use it under your own licence. HunyuanVideo weights are under Tencent's licence.
+Code is MIT (see `LICENSE` and `NOTICE`). The Qualcomm QAIRT/QNN SDK is **not included**; use it under your own licence. HunyuanVideo weights are under Tencent's licence.

@@ -1,0 +1,15 @@
+Tools_Hunyuan-qnn - theoretical HunyuanVideo -> Qualcomm Hexagon NPU (QNN/QAIRT) conversion toolkit
+Toolkit code: MIT License (see LICENSE). Copyright (c) 2026 Xiemox2.
+
+This repository contains ORIGINAL scaffolding only: planners, honest not-implemented adapters,
+HTP config sketches and shell wrappers. It does NOT include Local Dream, Nightmare Mobile,
+Qualcomm SDK binaries, model weights, keystores or credentials.
+
+MODEL WEIGHTS ARE NOT INCLUDED. HunyuanVideo / HunyuanVideo-1.5 weights and anything converted
+from them (ONNX, DLC, QNN context binaries, GGUF text encoders) remain under Tencent's
+Hunyuan Community License (and any third-party TE/VAE licences). Read those terms before
+any redistribution. This project is not affiliated with Tencent or Qualcomm.
+
+Related public toolkits (separate licences, not re-licensed here):
+  - https://github.com/Xiemox2/Tools_Krea2-npu (Apache-2.0, Krea 2 theoretical tools)
+  - https://github.com/Xiemox2/ZIT-HEXAGON-QNN (MIT tools/dictionary for ReaZIT QNN)
