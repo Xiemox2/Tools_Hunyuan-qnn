@@ -1,0 +1,4 @@
+{
+  "graphs": [{"graph_names": ["main"], "vtcm_mb": 8, "O": 3, "fp16_relaxed_precision": 0}],
+  "devices": [{"soc_model": 87, "dsp_arch": "v81", "cores": [{"core_id": 0, "perf_profile": "burst", "rpc_control_latency": 100}]}]
+}

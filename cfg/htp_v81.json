@@ -1,0 +1,4 @@
+{
+  "backend_extensions": {"shared_library_path": "libQnnHtpNetRunExtensions.so", "config_file_path": "cfg/htp_v81_graph.json"},
+  "_note": "Theoretical. Values copied from the ReaZIT QNN pipeline for SM8850 (dsp_arch v81, VTCM 8 MB, O=3). Not validated for HunyuanVideo."
+}

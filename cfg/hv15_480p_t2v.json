@@ -1,0 +1,12 @@
+{
+  "model": "HunyuanVideo-1.5 480p T2V",
+  "source_config": "tencent/HunyuanVideo-1.5 transformer/480p_t2v/config.json",
+  "hidden": 2048, "heads": 16, "head_dim": 128,
+  "double_blocks": 54, "single_blocks": 0, "mlp_ratio": 4,
+  "in_channels": 32, "patch": [1, 1, 1],
+  "vae": {"spatial": 16, "temporal": 4, "z": 32},
+  "text_encoder": {"name": "Qwen2.5-VL-7B (text only, intermediate layer)", "dim": 3584, "max_tokens": 256},
+  "shapes": [{"w": 848, "h": 480, "frames": 33}, {"w": 480, "h": 848, "frames": 33}],
+  "segments": {"blocks_per_segment": 9, "note": "54 double blocks -> 6 segments; adjust after measuring VTCM/RAM"},
+  "quant": {"weights": "W8", "activations": "A16", "calib_samples": 16}
+}

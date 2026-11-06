@@ -1,0 +1,11 @@
+{
+  "model": "HunyuanVideo 13B T2V (original 2024)",
+  "hidden": 3072, "heads": 24, "head_dim": 128,
+  "double_blocks": 20, "single_blocks": 40, "mlp_ratio": 4,
+  "in_channels": 16, "patch": [1, 2, 2],
+  "vae": {"spatial": 8, "temporal": 4, "z": 16},
+  "text_encoder": {"name": "LLaVA-Llama-3-8B (hidden layer -3, unverified) + CLIP-L pooled -> vector_in", "dim": 4096, "max_tokens": 256},
+  "shapes": [{"w": 848, "h": 480, "frames": 33}],
+  "segments": {"blocks_per_segment": 6, "note": "60 blocks -> 10 segments; W4A16 likely required to fit 16 GB"},
+  "quant": {"weights": "W4", "activations": "A16", "calib_samples": 16}
+}
